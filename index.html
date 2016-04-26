@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+  <script src='work_calcaulate.js'></script>
+</head>
+<body>
+  <form action="/">
+    <div class="works">
+      <header>
+        <div class="header-element">
+          Сумма
+        </div>
+        <div class="header-element">
+          Количество пользователей
+        </div>
+        <div class="header-element">
+          Количество дней
+        </div>
+        <div class="header-element">
+          Объем ассигнований, руб.
+        </div>
+      </header>
+
+      <div class='row'>
+        <div class="row-field field-okved">
+            <select id="okved" name="okved">
+              <option value="_none">- Не указано -</option>
+              <option value="105909">105909 руб.</option>
+              <option value="79038">79038 руб.</option>
+              <option value="67146">67146 руб.</option>
+              <option value="75455">75455 руб.</option>
+              <option value="32881">32881 руб.</option>
+              <option value="79810">79810 руб.</option>
+            </select>
+        </div>
+        <div class="row-field field-user-count">
+          <input type="text" id="input-user-count" name="input-user-count" value="" maxlength="255">
+        </div>
+        <div class="row-field field-day-count">
+          <input type="text" id='input-day-count' name="input-day-count" value="" maxlength="255">
+        </div>
+        <div class="row-field field-cost">
+          <input type="text" id="input-cost" name="input-cost" value="0" maxlength="27">
+        </div>
+      </div>
+
+    </div>
+  </form>
+
+
+</body>
+</html>

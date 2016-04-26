@@ -1,0 +1,47 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 0.9em;
+}
+
+.works {
+  width: 1000px;
+  margin: 30px auto;
+}
+
+input {
+  text-align: right;
+  padding: 5px;
+}
+
+select {
+  padding: 5px;
+  width: 191px;
+}
+
+header, .row, .summary-row {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.header-element, .row-field {
+  float: left;
+  margin-right: 5px;
+  width: 230px;
+}
+
+.summary-row-element {
+  float: left;
+  margin-right: 18px;
+  width: 216px;
+}
+
+.summary-row-heder {
+  margin-bottom: 10px;
+  float: left;
+}
+
+.summary-row-body {
+  margin-left: 160px;
+  float: left;
+  text-align: right;
+}
